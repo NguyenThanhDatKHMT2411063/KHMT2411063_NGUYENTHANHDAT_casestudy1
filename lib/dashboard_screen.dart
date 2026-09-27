@@ -51,7 +51,7 @@ class DashboardScreen extends StatelessWidget {
               width: double.infinity,
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: const Color(0FF2563EB),
+                color: const Color(0xFF2563EB),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Row(
@@ -100,13 +100,13 @@ class DashboardScreen extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: const Color(0FFE8F5E9),
+                      color: const Color(0xFFE8F5E9),
                       borderRadius: BorderRadius.circular(16),
                     ),
                     child: Row(
                       children: [
                         const CircleAvatar(
-                          backgroundColor: Color(0FF4CAF50),
+                          backgroundColor: Color(0xFF4CAF50),
                           radius: 16,
                           child: Icon(Icons.arrow_downward, color: Colors.white, size: 18),
                         ),
@@ -116,7 +116,7 @@ class DashboardScreen extends StatelessWidget {
                           children: const [
                             Text('TỔNG THU NHẬP', style: TextStyle(color: Colors.grey, fontSize: 10, fontWeight: FontWeight.bold)),
                             SizedBox(height: 2),
-                            Text('8.000.000 đ', style: TextStyle(color: Color(0FF2E7D32), fontSize: 13, fontWeight: FontWeight.bold)),
+                            Text('8.000.000 đ', style: TextStyle(color: Color(0xFF2E7D32), fontSize: 13, fontWeight: FontWeight.bold)),
                           ],
                         )
                       ],
@@ -128,13 +128,13 @@ class DashboardScreen extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: const Color(0FFFFEBEE),
+                      color: const Color(0xFFFFEBEE),
                       borderRadius: BorderRadius.circular(16),
                     ),
                     child: Row(
                       children: [
                         const CircleAvatar(
-                          backgroundColor: Color(0FFE53935),
+                          backgroundColor: Color(0xFFE53935),
                           radius: 16,
                           child: Icon(Icons.arrow_upward, color: Colors.white, size: 18),
                         ),
@@ -144,7 +144,7 @@ class DashboardScreen extends StatelessWidget {
                           children: const [
                             Text('TỔNG CHI TIÊU', style: TextStyle(color: Colors.grey, fontSize: 10, fontWeight: FontWeight.bold)),
                             SizedBox(height: 2),
-                            Text('3.000.000 đ', style: TextStyle(color: Color(0FFC62828), fontSize: 13, fontWeight: FontWeight.bold)),
+                            Text('3.000.000 đ', style: TextStyle(color: Color(0xFFC62828), fontSize: 13, fontWeight: FontWeight.bold)),
                           ],
                         )
                       ],
@@ -180,9 +180,9 @@ class DashboardScreen extends StatelessWidget {
         ),
       ),
 
-      // NÚT THÊM GIAO DỊCH (FLOATING BUTTON)
+      // NÚT THÊM GIAO DỊCH
       floatingActionButton: FloatingActionButton(
-        backgroundColor: const Color(0FF2563EB),
+        backgroundColor: const Color(0xFF2563EB),
         onPressed: () {},
         child: const Icon(Icons.add, color: Colors.white, size: 28),
       ),
@@ -191,7 +191,7 @@ class DashboardScreen extends StatelessWidget {
       // BOTTOM NAVIGATION BAR
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0,
-        selectedItemColor: const Color(0FF2563EB),
+        selectedItemColor: const Color(0xFF2563EB),
         unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Trang chủ'),
