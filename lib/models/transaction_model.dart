@@ -4,7 +4,7 @@ class TransactionModel {
   final double amount;
   final String category;
   final String date;
-  final String type; // 'income' hoặc 'expense'
+  final String type; // 'income' (Thu nhập) hoặc 'expense' (Chi tiêu)
   final String? note;
 
   TransactionModel({
